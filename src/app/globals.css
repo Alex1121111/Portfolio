@@ -24,3 +24,26 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.font-japanese {
+  font-family: 'Kolker Brush', cursive !important;
+}
+
+@media (max-height: 800px) {
+  .responsive-text {
+    margin-bottom: 15rem;
+  }
+  .responsive-text h1,
+  .responsive-text h2 {
+    font-size: 4rem;
+  }
+}
+@media (max-height: 1050px) {
+  .responsive-text {
+    margin-bottom: 15rem;
+  }
+  .responsive-text h1,
+  .responsive-text h2 {
+    font-size: 5rem;
+  }
+}
