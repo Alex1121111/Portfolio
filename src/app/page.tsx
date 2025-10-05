@@ -11,7 +11,7 @@ export default function Home() {
     script.src = 'https://conversate-ai.hyacinth.studio/static/god.js';
     script.setAttribute('c6', 'https://conversate-ai.hyacinth.studio');
     script.setAttribute('c4', 'min');
-    script.setAttribute('c5', '1');
+    script.setAttribute('c5', '12');
     script.setAttribute('c1', '');
     script.setAttribute('c2', 'https://conversate-ai.hyacinth.studio/static/close.svg');
     script.setAttribute('c3', 'https://conversate-ai.hyacinth.studio/embed/23');
