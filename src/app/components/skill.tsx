@@ -37,7 +37,7 @@ export default function SkillSection() {
                         <ul className="flex flex-col items-center justify-center text-5xl text-[#eedaae]">
                             <li>Dynamic Programming</li>
                             <li>Prefix Trees</li>
-                            <li>Dijkstra's Algorithm</li>
+                            <li>Dijkstra&apos;s Algorithm</li>
                             <li>Union Find</li>
                             <li>Topological Sort</li>
                         </ul>
