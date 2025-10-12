@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import SkillSection from "./components/skill";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,6 +18,9 @@ export default function Home() {
     script.setAttribute('c3', 'https://conversate-ai.hyacinth.studio/embed/23');
     script.setAttribute('expand', 'https://conversate-ai.hyacinth.studio/static/expand.svg');
     document.body.appendChild(script);
+
+// <script async c6="https://conversate-ai.hyacinth.studio" c4="min" c5="12" c1="" c2="https://conversate-ai.hyacinth.studio/static/close.svg" c3="https://conversate-ai.hyacinth.studio/embed/23" expand="https://conversate-ai.hyacinth.studio/static/expand.svg" src="https://conversate-ai.hyacinth.studio/static/god.js"></script>`
+
 
     return () => {
       document.body.removeChild(script);
@@ -60,7 +64,7 @@ export default function Home() {
       </div>
 
       <div id="skills" className="snap-start h-screen bg-cover bg-center bg-[url('/bg2.jpg')] flex items-center justify-center text-white text-4xl pt-20">
-        Skills Section
+        <SkillSection />
       </div>
 
       <div id="projects" className="snap-start h-screen bg-cover bg-center bg-[url('/bg3.jpg')] flex items-center justify-center text-white text-4xl pt-20">
